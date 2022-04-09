@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+	background-color:#eee;
+font-family: lato ,sans-serif;
+
+}
+
+#Logo{
+	width:350px;
+	margin-top:10px;
+
+}
+header {
+	position: fixed;
+	background:#eee ;
+	width: 1300px;
+	height: 30px;
+	margin-top: -10px;
+	background-color: rgba(23, 40, 74, );
+}
+
+
+ nav ul li{
+ 	display: inline;
+margin-right:100px ;
+cursor:pointer;
+}
+nav ul {
+	list-style: none;
+  
+}
+
+nav {
+	float: right;
+}
+.main__title {
+	
+font-size:28px ;
+text-align: center;
+justify-content: center;
+	align-items: center;
+}
+input{
+	width: 300px;
+	height:20px;
+
+}
+.center{
+	justify-content: center;
+	align-items: center;
+	display:flex;
+	margin-bottom: 5px;
+
+}
+
+
+.main__btn{
+	background-color: gold;
+	width: 170px;
+	font-weight:bold;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border-radius:7px;
+	border: none;
+	padding: 7px;
+
+}
+.main__btn1{
+	background-color: gold;
+	width: 120px;
+	font-weight:bold;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	height: 40px;
+	border: none;
+	transition:background-color 0.5s ease-in-out ;
+	
+	font-size:20px;
+
+}
+.main__vert_align{
+	display: flex;
+	margin-top: 50px;
+	
+}
+
+. div {
+	margin-bottom: 5px;
+
+}
+.main__vert_align h2{
+	margin: 0px;
+
+
+}
+.ranger{
+	margin-right:20px;
+}
+
+.main__vert_align p {
+	margin: 0px;
+}
+.icon{
+	
+	color: #FF8C00;
+	margin-right: 60px;
+}
+.deo{
+	width: 560px; 
+	height: 315px;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.trois_bloc{
+	width: 340px;
+	height: 360px;
+	border: solid 2px;
+	display: inline-block;
+	margin-right: 20px;
+}
+.trois_bloc h4{
+  background-color: silver;
+  font-size:18px;
+  text-align: center;
+  height: 35px;
+  padding-top:17px;
+  margin: 0px;
+}
+.bloc_menu{
+  display: flex;
+  grid-template-columns:340px 340px 340px;
+  grid-template-rows: 360px;
+  justify-content: center;
+	align-items: center;
+
+}
+.trois_bloc h2{
+	text-align: center;
+}
+.trois_bloc p{
+	text-align: center;
+	font-size:18px;
+}
+button:hover{
+	background-color: orange;
+}
+footer{
+    width: 1083px;
+    height: 100px;
+    background-color: silver;
+    margin-left: 190px;
+    margin-top:50px;
+     
+}
+
+footer h5{
+ display: inline-block;
+ margin-right: 50px;
+ font-size: 18px;
+ margin-top: 20px;
+ margin: 10px;
+ margin-bottom: 5px;
+
+}
+footer p{
+	margin-top :0px;
+	margin-right:20px;
+	margin-top: 5px;
+}
+ footer div {
+	
+	float: right;<
+	margin-right: 20px;
+	margin-top:17px;
+	
+}

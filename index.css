@@ -6,15 +6,15 @@ font-family: lato ,sans-serif;
 }
 
 #Logo{
-	width:350px;
+	width:25%;
 	margin-top:10px;
 
 }
 header {
 	position: fixed;
 	background:#eee ;
-	width: 1300px;
-	height: 30px;
+	width: 100%;
+	height: 45px;
 	margin-top: -10px;
 	background-color: rgba(23, 40, 74, );
 }
@@ -22,7 +22,7 @@ header {
 
  nav ul li{
  	display: inline;
-margin-right:100px ;
+margin-right:8em ;
 cursor:pointer;
 }
 nav ul {
@@ -103,13 +103,13 @@ input{
 .icon{
 	
 	color: #FF8C00;
-	margin-right: 60px;
+	margin-right: 7%;
 }
 .deo{
-	width: 560px; 
-	height: 315px;
-	margin-top: 80px;
+	width: 40%; 
+	height: 315px;margin-top: 80px;
 	margin-bottom: 80px;
+	
 }
 .trois_bloc{
 	width: 340px;
@@ -145,10 +145,10 @@ button:hover{
 	background-color: orange;
 }
 footer{
-    width: 1083px;
+    width: 82%;
     height: 100px;
     background-color: silver;
-    margin-left: 190px;
+    margin-left: 13.5%;
     margin-top:50px;
      
 }
@@ -169,8 +169,110 @@ footer p{
 }
  footer div {
 	
-	float: right;<
+	float: right;
 	margin-right: 20px;
 	margin-top:17px;
 	
+}
+
+
+/********************************** PARTIE RESPONSIVE ADAPTATIVE ************************************/
+
+
+@media screen and (max-width: 768px) {
+
+	#Logo{
+	width:45%;
+	
+
+}
+	img {
+		margin: auto;
+	}
+	main{
+		margin-top: 50px;
+	}
+header {
+height: 85px;
+margin-bottom: 80px;
+
+}
+.header_div{
+	margin-bottom: 80px;
+
+}
+
+ nav ul li{
+  margin-right:2em;
+  clear: both;
+
+ }
+ nav {
+ float: none;
+ }
+ nav ul {
+ 	
+ 	text-align: center;
+ }
+.main__title {
+	font-size: 19px;
+}
+.main__vert_align h2{
+	font-size: 18px;
+}
+.premium{
+	margin-left:20px;
+}
+.icon{
+	font-size:10px;
+
+}
+.main__vert_align{
+	margin: 10px;
+}
+.deo{
+	width: 90%;
+	height: 215px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+.bloc_menu{
+  display:inline ;
+
+
+  
+}  
+.trois_bloc{
+	margin-bottom: 30px;
+
+}
+.center_big{
+	justify-content: center;
+	align-items: center;
+  text-align: center;
+}
+
+
+
+footer{
+margin: 0px;	
+width: 100%;
+}
+footer div {
+	
+	
+}
+.pied_de_p{
+	
+}
+
+
+}
+
+@media screen and (max-width: px) {
+
+}
+
+@media screen and (max-width: px) {
+
 }
